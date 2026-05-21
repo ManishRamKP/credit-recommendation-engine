@@ -1,0 +1,53 @@
+{
+  "request_id": "0ee98234-e834-49bc-83a1-7fccbb36bc51",
+  "timestamp": "2025-02-14 12:14:10",
+  "input": {
+    "borrower_gst": "BORROWER_GSTIN_HERE",
+    "trader_gst": "TRADER_GSTIN_HERE",
+    "current_invoice_amount": 34692
+  },
+  "output": {
+    "credit_score": 30.75,
+    "request_id": "0ee98234-e834-49bc-83a1-7fccbb36bc51",
+    "final_verdict": "This transaction presents a neutral standpoint. ",
+    "highlights": [
+      "The borrower showcases commendable financial discipline and compliance.",
+      "The trader involved has a commendable track record of financial responsibility.",
+      "The company's operational history signifies market experience and stability."
+    ],
+    "observations": [
+      "The transaction size deviates from typical patterns, suggesting potential irregularities.",
+      "Infrequent transactions may suggest sporadic or inconsistent business dealings.",
+      "A potential inconsistency or irregularity is indicated by recent transaction patterns."
+    ]
+  },
+  "gst_recent_updated_date": "2024-12-09T00:00:00",
+  "tally_recent_updated_date": "2025-01-29T00:00:00",
+  "invoice_to_cashflow": 0.29477044677734376,
+  "recency_invoice_data": {
+    "1_3_months": 0,
+    "2_3_months": 0,
+    "3_3_months": 0,
+    "4_3_months": 0
+  },
+  "static_metrics": {
+    "current_invoice_amount": 34692.0,
+    "average_invoice_amount": 23836.0,
+    "invoice_frequency": 0.0,
+    "borrower_tax_compliance_score": 7.700520833333333,
+    "trader_tax_compliance_score": 8.42222222222222,
+    "operational_vintage": 63,
+    "recency_score": 0.0
+  },
+  "metric_contributions": {
+    "invoice_to_cash_flow": "0.10%",
+    "current_invoice_amount": "35.42%",
+    "invoice_frequency": "0.00%",
+    "borrower_tax_compliance_score": "2.50%",
+    "trader_tax_compliance_score": "2.74%",
+    "recency_score": "0.00%",
+    "operational_vintage": "53.35%",
+    "data_source": "0.00%"
+  },
+  "choosen_data": "Tally data"
+}

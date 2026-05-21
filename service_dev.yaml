@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: profintech-cre-v8
+  namespace: profintech-cre-v8-dev
+  labels:
+    app: profintech-creditrecommendation
+spec:
+  type: ClusterIP
+  selector:
+    app: profintech-creditrecommendation
+  ports:
+    - protocol: TCP
+      port: 8114
+      targetPort: 8114

@@ -1,0 +1,30 @@
+{
+    "base_weights":{
+    "invoice_to_cash_flow": 0.1,
+    "current_invoice_amount": 0.2,
+    "invoice_frequency": 0.18,
+    "borrower_tax_compliance_score": 0.01,
+    "trader_tax_compliance_score": 0.01,
+    "recency_score": 0.25,
+    "operational_vintage": 0.25,
+    "data_source":0.0
+    },
+
+    "additional_weights":{
+        "grn_present": 0.25,
+        "e_invoice_present": 0.25,
+        "e_way_bill_present": 0.25,
+        "trader_partner_confirmation": 0.25
+    },
+
+    "additional_overall_weight":{
+        "overall_weight":0.25
+    },
+
+    "recency_weights":{
+        "1_3_months": 0.5,
+        "2_3_months": 0.3,
+        "3_3_months": 0.1,
+        "4_3_months": 0.1
+    }
+}

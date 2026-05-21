@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: profintech-cre-v8
+  namespace: profintech-cre-v8-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: profintech-creditrecommendation
+  template:
+    metadata:
+      labels:
+        app: profintech-creditrecommendation
+    spec:
+      containers:
+        - name: back-end
+          image: YOUR_AWS_ACCOUNT_ID.dkr.ecr.YOUR_REGION.amazonaws.com/cre-v8-dev:latest
+          ports:
+            - containerPort: 8114

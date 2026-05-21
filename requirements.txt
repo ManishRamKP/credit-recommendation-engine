@@ -1,0 +1,6 @@
+Flask
+boto3
+pandas
+requests
+numpy
+openpyxl
